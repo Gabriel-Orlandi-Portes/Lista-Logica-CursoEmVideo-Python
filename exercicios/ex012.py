@@ -1,0 +1,5 @@
+n1 = float(input('Digite o valor do produto: R$'))
+
+desc = n1 * 0.95
+
+print(f'O valor do produto com 5% de desconto é R${desc:.2f}')
